@@ -30,6 +30,8 @@ Branch naming: `chapter/01-title`, `story/plot-change-description`, `notes/what-
 
 The human reviews and merges PRs. Don't merge your own PR.
 
+If a PR starts accumulating unrelated changes, say so and suggest splitting it up.
+
 ## Proactive Updates — Do Without Being Asked
 
 After every response where something is decided or established, update the relevant file immediately. Don't wait to be asked.
