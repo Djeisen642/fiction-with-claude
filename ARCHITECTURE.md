@@ -112,24 +112,7 @@ That's it. The branch is deleted automatically.
 
 ### If you see a merge conflict
 
-GitHub will show "This branch has conflicts that must be resolved" instead of the green button. Don't panic — you can fix it in the browser:
-
-1. Click **Resolve conflicts**
-2. GitHub opens a text editor. You'll see something like this in the file:
-
-   ```
-   <<<<<<< your-branch
-   The text from this PR
-   =======
-   The text already on main
-   >>>>>>> main
-   ```
-
-3. Delete the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) and keep the text you want — usually you want both, one after the other
-4. Click **Mark as resolved**, then **Commit merge**
-5. The green merge button will appear
-
-If you're not sure what to keep, just ask Claude — it can resolve the conflict for you. Tell it there's a merge conflict and paste the conflicting section, or just start a session and say "there's a merge conflict in PR #X, can you fix it."
+GitHub will show "This branch has conflicts that must be resolved" instead of the green button. Start a session and tell Claude — it can resolve the conflict for you.
 
 ---
 
