@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"Stop\",\"additionalContext\":\"SELF-CHECK: Did any story decisions, worldbuilding details, character facts, tone choices, or open questions get resolved this turn? If yes, update the relevant notes file per the proactive update table in CLAUDE.md, then commit and push.\"}}'",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
