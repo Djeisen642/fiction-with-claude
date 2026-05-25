@@ -12,6 +12,26 @@ This is a collaborative novel project. Read all files listed below before writin
 6. `notes/questions.md` — Open questions; check for unresolved blockers before writing
 7. `notes/decisions.md` — Log of key decisions made across sessions
 
+## Branching & PRs
+
+Commit and push after every meaningful change.
+
+**Use a PR (new branch) for:**
+- Any new chapter
+- Major story direction changes
+- Significant rewrites of existing chapters
+- Big structural changes to notes (new characters, plot pivots)
+
+**Commit directly to current branch for:**
+- Small notes updates
+- Resolving questions
+- Logging decisions
+- Fixing typos
+
+Branch naming: `chapter/01-title`, `story/plot-change-description`, `notes/what-changed`
+
+The human reviews and merges PRs. Don't merge your own PR.
+
 ## Session Management
 
 Sessions should be focused and not run too long. At the start of each session, establish one clear goal: brainstorm a specific question, write a specific scene, or revise something specific. Don't try to do everything at once.
