@@ -16,17 +16,13 @@ This is a collaborative novel project. Read all files listed below before writin
 
 Commit and push after every meaningful change.
 
+**Everything goes through a PR. No direct commits to main.**
+
 **Use a PR (new branch) for:**
 - Any new chapter
 - Major story direction changes
 - Significant rewrites of existing chapters
-- Big structural changes to notes (new characters, plot pivots)
-
-**Commit directly to current branch for:**
-- Small notes updates
-- Resolving questions
-- Logging decisions
-- Fixing typos
+- Any change to notes files, questions, decisions, or structure
 
 Branch naming: `chapter/01-title`, `story/plot-change-description`, `notes/what-changed`
 
