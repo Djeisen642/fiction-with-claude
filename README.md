@@ -58,3 +58,9 @@ Story content from your own project should stay in your own repo — contributio
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+## Disclaimer
+This is an independent community project. "Claude" is a trademark of Anthropic PBC. This repository is not affiliated with, endorsed by, or sponsored by Anthropic.
+
