@@ -15,6 +15,14 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for a detailed explanation of how the rep
 
 If you [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repo, configure these settings on your fork:
 
+### Rename the Repository
+
+Under **Settings → General**, the first field is **Repository name**. Change it to whatever you want to call your project and click **Rename**.
+
+### Change Visibility
+
+Forked repos inherit the visibility of the original (public). If you want yours to be private — so only you can see it — go to **Settings → General → Danger Zone → Change repository visibility** and select **Private**. You can change this at any time.
+
 ### Branch Protection (required)
 
 Go to **Settings → Rules → [Rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets)** and create a ruleset targeting `main`:
