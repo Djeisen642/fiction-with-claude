@@ -1,0 +1,18 @@
+{
+  "name": "fiction-with-claude",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build tooling for the repo's social-preview image (assets/). Not needed for writing.",
+  "type": "module",
+  "scripts": {
+    "render:social": "node assets/render.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djeisen642/fiction-with-claude.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}
