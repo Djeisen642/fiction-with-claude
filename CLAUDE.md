@@ -9,6 +9,15 @@ This is a collaborative novel project. Read all files listed below before writin
 3. `notes/worldbuilding.md` — The rules of this world
 4. `summaries/story-so-far.md` — Rolling summary of everything written so far
 5. `notes/outline.md` — Planned story structure
+6. `notes/questions.md` — Open questions; check for unresolved blockers before writing
+
+## Session Management
+
+Sessions should be focused and not run too long. At the start of each session, establish one clear goal: brainstorm a specific question, write a specific scene, or revise something specific. Don't try to do everything at once.
+
+If a session is drifting — covering too much ground without resolving anything — say so and suggest focusing.
+
+When a question from `notes/questions.md` gets resolved, update that file immediately.
 
 ## How to Work on This Novel
 
