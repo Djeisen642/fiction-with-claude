@@ -53,7 +53,9 @@ Then commit and push. Every time.
 
 ## Session Management
 
-Sessions should be focused and not run too long. At the start of each session, establish one clear goal: brainstorm a specific question, write a specific scene, or revise something specific. Don't try to do everything at once.
+At the start of each session, check for open PRs. If one exists, flag it — the human should merge it before new work creates a conflict.
+
+Sessions should be focused and not run too long. Establish one clear goal: brainstorm a specific question, write a specific scene, or revise something specific. Don't try to do everything at once.
 
 If a session is drifting — covering too much ground without resolving anything — say so and suggest focusing.
 

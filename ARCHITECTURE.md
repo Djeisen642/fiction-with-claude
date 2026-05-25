@@ -100,6 +100,20 @@ All changes go through a PR. This means:
 - Significant rewrites of existing chapters
 - Any change to notes files, questions, decisions, or structure
 
+### Merging a PR
+
+1. Open the PR on GitHub
+2. Click the green **Merge pull request** button
+3. Click **Confirm merge**
+
+That's it. The branch is deleted automatically.
+
+**Important: merge before starting a new session.** If you let PRs pile up, two sessions may edit the same notes file and create a conflict. One open PR at a time and it essentially never happens.
+
+### If you see a merge conflict
+
+GitHub will show "This branch has conflicts that must be resolved" instead of the green button. Start a session and tell Claude — it can resolve the conflict for you.
+
 ---
 
 ## What Claude Will and Won't Do
