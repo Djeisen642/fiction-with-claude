@@ -21,6 +21,4 @@ Format: date, what was decided, briefly why.
 
 ---
 
-## Archive
-
-*Decisions fully captured in notes files. Kept for reference, not active reading.*
+*When a decision is fully absorbed into a notes file, move it to `notes/decisions-archive.md`. Don't read that file unless something needs historical reference.*
