@@ -1,10 +1,10 @@
 # Tone & Style
 
 ## World Feel
-Lived-in. The catastrophes didn't win. People argue, struggle, fall in love — normal life in an advanced future.
+Lived-in. Catastrophes didn't win. Normal life in an advanced future.
 
 ## Prose Feel
-*[TBD — to be decided before writing begins]*
+*[TBD — decide before writing begins]*
 - POV: first or third? Close or distant?
 - Sentence rhythm: clipped or flowing?
 - Humor: present, and what kind?
@@ -15,8 +15,8 @@ Lived-in. The catastrophes didn't win. People argue, struggle, fall in love — 
 ## Avoid
 - Technobabble
 - Exposition dumps
-- The relic sounding like HAL 9000 or a cheerful chatbot
-- An ending that feels like a lesson
+- Relic sounding like HAL 9000 or a cheerful chatbot
+- Ending that feels like a lesson
 
 ## Emotional Register
-Patient, a little melancholy, ultimately hopeful without being saccharine.
+Patient, a little melancholy, hopeful without being saccharine.

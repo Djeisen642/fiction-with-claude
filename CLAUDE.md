@@ -38,7 +38,7 @@ Before ending any session: record key decisions in `notes/decisions.md`. If some
 
 ## Notes Files
 
-Keep all non-chapter files short, clear, and concise. No paragraphs where a sentence will do. No sentences where a phrase will do. If a notes file is getting long, it needs to be trimmed, not expanded.
+Keep all non-chapter files short, clear, and concise. Fragments are fine. No sentences where a phrase will do. If a notes file is getting long, trim it.
 
 ## Collaboration Rules
 
