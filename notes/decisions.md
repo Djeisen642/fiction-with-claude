@@ -10,14 +10,7 @@ Format: date, what was decided, briefly why.
 
 ## Active
 
-## 2026-05-25
-
-- **Genre/tone:** Not dystopian, not utopian. Direct extrapolation of our present. Neither good nor bad — just where things went.
-- **Technology:** Furniture. Advanced but never the point.
-- **The relic:** Pre-AGI narrow system, still holding real controls. Not malevolent. Prone to hallucination. Never decommissioned — AGI arrived and superseded it but it was too risky/complicated to shut down.
-- **Story is not a warning:** The relic is legacy infrastructure, not a cautionary tale.
-- **Claude's role:** Push back. No sycophancy. Offer alternatives when saying no.
-- **Sessions:** Focused, one goal, don't run long. Commit and push often. Everything through PRs.
+*[No decisions yet.]*
 
 ---
 

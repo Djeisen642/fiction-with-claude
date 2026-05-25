@@ -1,7 +1,7 @@
 # Tone & Style
 
 ## World Feel
-Lived-in. Catastrophes didn't win. Normal life in an advanced future.
+*[TBD — What does this world feel like to inhabit?]*
 
 ## Prose Feel
 *[TBD — decide before writing begins]*
@@ -13,10 +13,8 @@ Lived-in. Catastrophes didn't win. Normal life in an advanced future.
 *[TBD]*
 
 ## Avoid
-- Technobabble
 - Exposition dumps
-- Relic sounding like HAL 9000 or a cheerful chatbot
-- Ending that feels like a lesson
+- Endings that feel like lessons
 
 ## Emotional Register
-Patient, a little melancholy, hopeful without being saccharine.
+*[TBD]*
