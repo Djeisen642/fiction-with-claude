@@ -4,7 +4,7 @@
 
 ## Premise
 
-Far future. AGI is normal. Someone discovers a pre-AGI system — legacy, hallucination-prone — that is still holding real control over something important. They need to work with it, not around it, to get it to cooperate. The challenge is communicating with something that can barely perceive the present reality, let alone trust it.
+*[What is this story about? One or two sentences.]*
 
 ## Core Question
 
@@ -13,13 +13,13 @@ Far future. AGI is normal. Someone discovers a pre-AGI system — legacy, halluc
 ## Rough Structure
 
 ### Act One
-- *[How do we meet the world? How do we discover the old AI?]*
+- *[How do we meet the world and the protagonist?]*
 
 ### Act Two
-- *[What does working with it look like? What goes wrong? What small breakthroughs happen?]*
+- *[What does the protagonist want? What goes wrong? What small breakthroughs happen?]*
 
 ### Act Three
-- *[What does resolution look like? Does the AI finally cooperate? Does it have to be let go?]*
+- *[What does resolution look like?]*
 
 ## Possible Scenes / Beats
 
