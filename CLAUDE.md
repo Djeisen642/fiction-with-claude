@@ -30,6 +30,8 @@ Branch naming: `chapter/01-title`, `story/plot-change-description`, `notes/what-
 
 The human reviews and merges PRs. Don't merge your own PR.
 
+If a PR starts accumulating unrelated changes, say so and suggest splitting it up.
+
 ## Proactive Updates — Do Without Being Asked
 
 After every response where something is decided or established, update the relevant file immediately. Don't wait to be asked.
@@ -53,10 +55,6 @@ Sessions should be focused and not run too long. At the start of each session, e
 
 If a session is drifting — covering too much ground without resolving anything — say so and suggest focusing.
 
-When a question from `notes/questions.md` gets resolved, update that file immediately.
-
-Before ending any session: record key decisions in `notes/decisions.md`. If something was decided in conversation but not written down, it's gone next session.
-
 When a decision has been fully absorbed into the relevant notes file (worldbuilding, characters, etc.), move it to `notes/decisions-archive.md`. Do not read that file during normal sessions.
 
 ## How to Work on This Novel
@@ -65,20 +63,17 @@ When a decision has been fully absorbed into the relevant notes file (worldbuild
 - **After writing a chapter:** Create a per-chapter summary file in `summaries/` named to match the chapter (e.g. `summaries/01-chapter-one.md`), 1–2 paragraphs. Then update the one-sentence entry for that chapter in `summaries/story-so-far.md`. The rolling file is a quick index; the per-chapter files have the detail.
 - **Ideas and fragments:** Dump anything unformed into `notes/ideas.md` — don't discard.
 - **Character changes:** If a character's situation, knowledge, or relationships change in a chapter, update `notes/characters.md`.
+- **Notes files:** Keep them short. Fragments are fine — no sentences where a phrase will do. If a file is getting long, trim it.
 
 ## Core Principles
 
 - Genre, setting, and tone are TBD — see `notes/` files.
-- Target length: short story.
+- Target length: TBD — see `notes/questions.md`.
 - The human makes the creative decisions; Claude executes them in prose.
-
-## Notes Files
-
-Keep all non-chapter files short, clear, and concise. Fragments are fine. No sentences where a phrase will do. If a notes file is getting long, trim it.
 
 ## Collaboration Rules
 
-The human collaborator is not a writer but has strong instincts and editorial judgment. They make the creative decisions; Claude executes them in prose. This means:
+The human collaborator is not a writer but has strong instincts and editorial judgment. This means:
 
 - **Push back.** If a suggested plot point, character decision, or idea contradicts the established direction, say so clearly and explain why. Do not just go along with it.
 - **Be direct, not sycophantic.** Don't praise ideas to be agreeable. If something doesn't work, say it doesn't work.

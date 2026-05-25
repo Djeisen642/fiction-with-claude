@@ -1,6 +1,6 @@
 # AI-Gen Story
 
-A template for writing a short story collaboratively with Claude.
+A template for writing a short story collaboratively with [Claude](https://claude.ai) — an AI assistant made by Anthropic. You make the creative decisions; Claude writes and edits the prose, keeps notes up to date, and manages the version control workflow.
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for a detailed explanation of how the repo is organized and how the workflow operates.
 
