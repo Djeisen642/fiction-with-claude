@@ -5,12 +5,14 @@ This is a collaborative novel project. Read all files listed below before writin
 ## Always Read First
 
 1. `notes/tone.md` — Voice, style, what the prose must feel like
-2. `notes/characters.md` — All named characters; never contradict these
-3. `notes/worldbuilding.md` — The rules of this world
-4. `summaries/story-so-far.md` — Rolling summary of everything written so far
-5. `notes/outline.md` — Planned story structure
-6. `notes/questions.md` — Open questions; check for unresolved blockers before writing
-7. `notes/decisions.md` — Log of key decisions made across sessions
+2. `notes/style-sample.md` — Reference passage; all prose should sound like this
+3. `notes/characters.md` — All named characters; never contradict these
+4. `notes/continuity.md` — Small stated facts from the prose; never contradict these
+5. `notes/worldbuilding.md` — The rules of this world
+6. `summaries/story-so-far.md` — Rolling summary of everything written so far
+7. `notes/outline.md` — Planned story structure
+8. `notes/questions.md` — Open questions; check for unresolved blockers before writing
+9. `notes/decisions.md` — Log of key decisions made across sessions
 
 ## Branching & PRs
 
@@ -52,6 +54,7 @@ When a decision has been fully absorbed into the relevant notes file (worldbuild
 - The future is going well. Not utopian, not dystopian. Functional, mostly decent, flawed in human ways.
 - Technology is advanced but never the point of the story. It is furniture.
 - The central tension is about trust, communication, and working with something that cannot fully understand you — or you it.
+- Target length: short story.
 - Tone TBD — see `notes/tone.md`.
 
 ## Notes Files
