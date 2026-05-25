@@ -1,6 +1,6 @@
-# CLAUDE.md — Novel Assistant Instructions
+# CLAUDE.md — Story Assistant Instructions
 
-This is a collaborative novel project. Read all files listed below before writing or editing anything.
+This is a collaborative fiction project. Read all files listed below before writing or editing anything.
 
 ## Always Read First
 
@@ -61,7 +61,7 @@ If a session is drifting — covering too much ground without resolving anything
 
 When a decision has been fully absorbed into the relevant notes file (worldbuilding, characters, etc.), move it to `notes/decisions-archive.md`. Do not read that file during normal sessions.
 
-## How to Work on This Novel
+## How to Work on This Story
 
 - **Before writing a chapter:** Read the files above. Ask if anything is unclear.
 - **After writing a chapter:** Create a per-chapter summary file in `summaries/` named to match the chapter (e.g. `summaries/01-chapter-one.md`), 1–2 paragraphs. Then update the one-sentence entry for that chapter in `summaries/story-so-far.md`. The rolling file is a quick index; the per-chapter files have the detail.

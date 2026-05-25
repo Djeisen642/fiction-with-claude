@@ -1,6 +1,6 @@
 # AI-Gen Story
 
-A template for writing a short story collaboratively with [Claude](https://claude.ai) — an AI assistant made by Anthropic. You make the creative decisions; Claude writes and edits the prose, keeps notes up to date, and manages the version control workflow.
+A template for writing a story collaboratively with [Claude](https://claude.ai) — an AI assistant made by Anthropic. Short story, novella, or novel — you decide the length in your first session. You make the creative decisions; Claude writes and edits the prose, keeps notes up to date, and manages the version control workflow.
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ If you have an idea:
 > I want to write a story about a woman who inherits a failing lighthouse and starts finding letters hidden in the walls. Let's work through the open questions in `notes/questions.md` and figure out the basics before we write anything.
 
 If you don't:
-> I want to write a short story but I don't have an idea yet. Read the notes files and help me figure out what we're making — genre, premise, a protagonist worth following.
+> I want to write a story but I don't have an idea yet. Read the notes files and help me figure out what we're making — genre, premise, a protagonist worth following.
 
 Keep early sessions focused on decisions, not prose. Writing starts once the foundations are in place.
 

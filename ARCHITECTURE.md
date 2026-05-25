@@ -35,7 +35,7 @@ Claude comes in three tiers. You can switch between them in Claude Code with the
 | **Sonnet** | Most session work — routine writing, notes updates, brainstorming, revisions | Good balance of quality and speed; a reasonable default |
 | **Haiku** | Quick questions, simple edits, checking a file, short back-and-forth | Fastest and cheapest, but less nuanced on complex creative tasks |
 
-For a short story, Sonnet is probably the right default. Reach for Opus when a scene or decision feels important enough to warrant it. Use Haiku when you just need a quick answer.
+For most stories, Sonnet is probably the right default. Reach for Opus when a scene or decision feels important enough to warrant it. Use Haiku when you just need a quick answer.
 
 Models and pricing change — see [anthropic.com](https://anthropic.com) for current options.
 
@@ -47,7 +47,7 @@ Understanding Claude's memory constraints explains why this repo is structured t
 
 **No persistent memory.** Claude does not remember previous conversations. Each session starts blank. The `notes/` files are the entire substitute for memory — without them, every session would start from scratch with no knowledge of what's been written or decided.
 
-**Context window.** Within a single session, Claude can hold a large amount of text in its active context — enough for a full short story plus all the notes files. For longer projects (novellas, novels), you may eventually run into limits. Keep notes files concise and use the summaries system rather than feeding Claude entire chapters.
+**Context window.** Within a single session, Claude can hold a large amount of text in its active context — enough for a short story or several chapters plus all the notes files. For longer works (novellas, novels), you may eventually run into limits. Keep notes files concise and use the summaries system rather than feeding Claude entire chapters.
 
 **Within-session compression.** Claude Code automatically compresses earlier parts of a long conversation as a session grows. This means details discussed early in a session may be recalled less precisely by the end. For anything important decided mid-session, update the relevant notes file immediately rather than relying on Claude to remember it from earlier in the conversation.
 
@@ -135,7 +135,7 @@ GitHub will show "This branch has conflicts that must be resolved" instead of th
 ## Directory Layout
 
 ```
-ai-gen-story/
+your-story/
 ├── manuscript/        # The actual story
 │   └── TEMPLATE.md   # Copy this when starting a new chapter
 ├── notes/             # Planning and reference — Claude reads these every session
