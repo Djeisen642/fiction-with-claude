@@ -32,6 +32,8 @@ Branch naming: `draft/01-title`, `story/plot-change-description`, `notes/what-ch
 
 The human reviews and merges PRs. Don't merge your own PR.
 
+When you open or update a PR, fill the `Session:` line in the description with your session link (`https://claude.ai/code/session_…`) so the work stays traceable. Use your own current session — never a hardcoded or copied one.
+
 If a PR starts accumulating unrelated changes, say so and suggest splitting it up. If it drifts slightly but stays coherent, update the PR description to reflect what's actually in it.
 
 ## Proactive Updates — Do Without Being Asked
