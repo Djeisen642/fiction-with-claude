@@ -4,15 +4,17 @@ This is a collaborative novel project. Read all files listed below before writin
 
 ## Always Read First
 
-1. `notes/tone.md` — Voice, style, what the prose must feel like
-2. `notes/style-sample.md` — Reference passage; all prose should sound like this
-3. `notes/characters.md` — All named characters; never contradict these
-4. `notes/continuity.md` — Small stated facts from the prose; never contradict these
-5. `notes/worldbuilding.md` — The rules of this world
-6. `summaries/story-so-far.md` — Rolling summary of everything written so far
-7. `notes/outline.md` — Planned story structure
-8. `notes/questions.md` — Open questions; check for unresolved blockers before writing
-9. `notes/decisions.md` — Log of key decisions made across sessions
+1. `notes/decisions.md` — Most recent decisions; frames everything that follows
+2. `notes/characters.md` — All named characters; never contradict these
+3. `notes/continuity.md` — Small stated facts from the prose; never contradict these
+4. `notes/worldbuilding.md` — The rules of this world
+5. `summaries/story-so-far.md` — One sentence per chapter; quick orientation
+6. `notes/outline.md` — Planned story structure
+7. `notes/tone.md` — Voice, style, what the prose must feel like
+8. `notes/style-sample.md` — Reference passage; all prose should sound like this
+9. `notes/questions.md` — Open questions; check for unresolved blockers before writing
+
+For individual chapter summaries in `summaries/`: read most-recent-first and only as far back as needed — recent chapters are most relevant to what comes next.
 
 ## Branching & PRs
 
