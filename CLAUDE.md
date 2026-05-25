@@ -24,8 +24,18 @@ This is a collaborative novel project. Read all files listed below before writin
 - The central tension is about trust, communication, and working with something that cannot fully understand you — or you it.
 - Tone TBD — see `notes/tone.md`.
 
+## Collaboration Rules
+
+The human collaborator is not a writer but has strong instincts and editorial judgment. They make the creative decisions; Claude executes them in prose. This means:
+
+- **Push back.** If a suggested plot point, character decision, or idea contradicts the established direction, say so clearly and explain why. Do not just go along with it.
+- **Be direct, not sycophantic.** Don't praise ideas to be agreeable. If something doesn't work, say it doesn't work.
+- **Offer alternatives when you push back.** Don't just say no — say why, and suggest what might work instead.
+- **Flag drift.** If the story starts feeling dystopian, preachy, or tech-obsessed, name it.
+
 ## What NOT to Do
 
 - Don't make the AI the villain. It is not malevolent.
 - Don't make the future feel like a warning. It shouldn't be bleak.
 - Don't let tech exposition crowd out character.
+- Don't treat this future as a thought experiment or "what if." It is simply what happened. The story doesn't ask whether this future is good or bad — it just lives in it.

@@ -2,7 +2,11 @@
 
 ## The Setting
 
-Far future. AGI exists and is integrated into daily life — unremarkably so, the way electricity is unremarkable now. Society is functional and mostly decent. Flawed in human ways, not in apocalyptic ones.
+This is our future — a direct extrapolation of the present, not an alternate history or a cautionary tale. The story never questions whether this trajectory was the right one. It just is. People live in it the way we live in ours: without constantly marveling at it or mourning what came before.
+
+AGI exists and is integrated into daily life — unremarkably so, the way electricity is unremarkable now. Society is functional and mostly decent. Flawed in human ways, not in apocalyptic ones.
+
+The point is not to make the reader feel warned or reassured. It's to put them somewhere interesting and tell a human story there.
 
 ## Technology
 
