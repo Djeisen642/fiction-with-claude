@@ -56,6 +56,22 @@ Claude never merges its own PRs. You are always in the loop before anything land
 
 ---
 
+## Context & Memory (as of May 2026)
+
+Understanding Claude's memory constraints explains why this repo is structured the way it is.
+
+**No persistent memory.** Claude does not remember previous conversations. Each session starts blank. The `notes/` files are the entire substitute for memory — without them, every session would start from scratch with no knowledge of what's been written or decided.
+
+**Context window.** Within a single session, Claude can hold a large amount of text in its active context — enough for a full short story plus all the notes files. For longer projects (novellas, novels), you may eventually run into limits. Keep notes files concise and use the summaries system rather than feeding Claude entire chapters.
+
+**Within-session compression.** Claude Code automatically compresses earlier parts of a long conversation as a session grows. This means details discussed early in a session may be recalled less precisely by the end. For anything important decided mid-session, update the relevant notes file immediately rather than relying on Claude to remember it from earlier in the conversation.
+
+**Ordering matters.** The Always Read First list in `CLAUDE.md` is ordered deliberately — hard constraints at the top, open questions at the bottom. Content read first and last tends to be weighted more heavily than content in the middle.
+
+This is accurate as of May 2026. Anthropic is actively developing Claude's memory and context capabilities — check [anthropic.com](https://anthropic.com) for current information.
+
+---
+
 ## The Notes System
 
 The `notes/` files are Claude's memory across sessions. Because Claude doesn't remember previous conversations, these files carry all the context forward.
