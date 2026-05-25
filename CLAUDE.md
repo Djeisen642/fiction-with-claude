@@ -68,7 +68,7 @@ When a decision has been fully absorbed into the relevant notes file (worldbuild
 ## Core Principles
 
 - Genre, setting, and tone are TBD — see `notes/` files.
-- Target length: short story.
+- Target length: TBD — see `notes/questions.md`.
 - The human makes the creative decisions; Claude executes them in prose.
 
 ## Collaboration Rules

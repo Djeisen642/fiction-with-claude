@@ -9,6 +9,7 @@ Questions that need answers before or during the story. Mark with [RESOLVED] and
 - Where and when does the story take place?
 - What is the central conflict?
 - What is the tone and genre?
+- What is the target length? (short story, novella, novel)
 - Write the style sample in `notes/style-sample.md` — requires tone and POV decisions first
 
 ## Must Resolve Before the Story Ends
