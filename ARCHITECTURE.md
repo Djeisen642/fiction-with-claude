@@ -129,7 +129,7 @@ GitHub will show "This branch has conflicts that must be resolved" instead of th
 4. Click **Mark as resolved**, then **Commit merge**
 5. The green merge button will appear
 
-If you're not sure what to keep, ask Claude — paste the conflicting section and it will tell you how to resolve it.
+If you're not sure what to keep, just ask Claude — it can resolve the conflict for you. Tell it there's a merge conflict and paste the conflicting section, or just start a session and say "there's a merge conflict in PR #X, can you fix it."
 
 ---
 
