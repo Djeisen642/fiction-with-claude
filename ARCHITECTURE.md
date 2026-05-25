@@ -31,7 +31,7 @@ Claude comes in three tiers. You can switch between them in Claude Code with the
 
 | Model | Best for | Trade-off |
 |---|---|---|
-| **Opus** | First drafts of important chapters, complex character work, difficult plot decisions, anything where quality matters most | Slowest, most expensive |
+| **Opus** | First drafts of important sections, complex character work, difficult plot decisions, anything where quality matters most | Slowest, most expensive |
 | **Sonnet** | Most session work — routine writing, notes updates, brainstorming, revisions | Good balance of quality and speed; a reasonable default |
 | **Haiku** | Quick questions, simple edits, checking a file, short back-and-forth | Fastest and cheapest, but less nuanced on complex creative tasks |
 
@@ -47,7 +47,7 @@ Understanding Claude's memory constraints explains why this repo is structured t
 
 **No persistent memory.** Claude does not remember previous conversations. Each session starts blank. The `notes/` files are the entire substitute for memory — without them, every session would start from scratch with no knowledge of what's been written or decided.
 
-**Context window.** Within a single session, Claude can hold a large amount of text in its active context — enough for a short story or several chapters plus all the notes files. For longer works (novellas, novels), you may eventually run into limits. Keep notes files concise and use the summaries system rather than feeding Claude entire chapters.
+**Context window.** Within a single session, Claude can hold a large amount of text in its active context — enough for a short story or several chapters plus all the notes files. For longer works (novellas, novels), you may eventually run into limits. Keep notes files concise and use the summaries system rather than feeding Claude the entire manuscript.
 
 **Within-session compression.** Claude Code automatically compresses earlier parts of a long conversation as a session grows. This means details discussed early in a session may be recalled less precisely by the end. For anything important decided mid-session, update the relevant notes file immediately rather than relying on Claude to remember it from earlier in the conversation.
 
@@ -73,7 +73,7 @@ The `notes/` files are Claude's memory across sessions. Claude is instructed to 
 | `questions.md` | Open questions — some must be resolved before writing can proceed |
 | `ideas.md` | Scratchpad for fragments, half-thoughts, and anything not yet ready |
 
-For individual chapter summaries in `summaries/`: read most-recent-first and only as far back as needed — recent chapters are most relevant to what comes next.
+For individual section summaries in `summaries/`: read most-recent-first and only as far back as needed — recent sections are most relevant to what comes next.
 
 ---
 
@@ -89,16 +89,16 @@ All changes go through a PR. This means:
 
 | Type of change | Branch name format |
 |---|---|
-| New chapter | `chapter/01-working-title` |
+| New section of prose (chapter, or whole short story) | `draft/01-working-title` |
 | Plot or direction change | `story/description-of-change` |
 | Story notes (characters, worldbuilding, etc.) | `notes/what-changed` |
 | Template infrastructure (CLAUDE.md, README, etc.) | `meta/what-changed` |
 
 ### What triggers a new PR
 
-- Any new chapter
+- Any new section of prose
 - Major story direction changes
-- Significant rewrites of existing chapters
+- Significant rewrites of existing prose
 - Any change to notes files, questions, decisions, or structure
 
 ### Merging a PR
@@ -137,7 +137,7 @@ GitHub will show "This branch has conflicts that must be resolved" instead of th
 ```
 your-story/
 ├── manuscript/        # The actual story
-│   └── TEMPLATE.md   # Copy this when starting a new chapter
+│   └── TEMPLATE.md   # Copy this when starting a new section
 ├── notes/             # Planning and reference — Claude reads these every session
 │   ├── decisions.md       # Log of key decisions made across sessions
 │   ├── characters.md      # All named characters
@@ -150,7 +150,7 @@ your-story/
 │   ├── decisions-archive.md  # Resolved decisions (not read during normal sessions)
 │   └── ideas.md           # Scratchpad — anything unformed goes here
 ├── summaries/         # Story progress
-│   └── story-so-far.md   # One sentence per chapter; quick orientation
+│   └── story-so-far.md   # One sentence per section; quick orientation
 ├── CLAUDE.md          # Instructions Claude follows during every session
 ├── ARCHITECTURE.md    # This file
 └── README.md          # Overview and setup guide

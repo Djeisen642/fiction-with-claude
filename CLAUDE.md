@@ -8,13 +8,13 @@ This is a collaborative fiction project. Read all files listed below before writ
 2. `notes/characters.md` — All named characters; know these cold before writing anything
 3. `notes/continuity.md` — Small stated facts from the prose; build on these
 4. `notes/worldbuilding.md` — The rules of this world
-5. `summaries/story-so-far.md` — One sentence per chapter; quick orientation
+5. `summaries/story-so-far.md` — One sentence per section; quick orientation
 6. `notes/outline.md` — Planned story structure
 7. `notes/tone.md` — Voice, style, what the prose must feel like
 8. `notes/style-sample.md` — Reference passage; all prose should sound like this
 9. `notes/questions.md` — Open questions; note any blockers before writing
 
-For individual chapter summaries in `summaries/`: read most-recent-first and only as far back as needed — recent chapters are most relevant to what comes next.
+For individual section summaries in `summaries/`: read most-recent-first and only as far back as needed — recent sections are most relevant to what comes next.
 
 ## Branching & PRs
 
@@ -23,12 +23,12 @@ Commit and push after every meaningful change.
 **Everything goes through a PR. No direct commits to main.**
 
 **Use a PR (new branch) for:**
-- Any new chapter
+- Any new section of prose (a chapter, or the whole piece for a short story)
 - Major story direction changes
-- Significant rewrites of existing chapters
+- Significant rewrites of existing prose
 - Any change to notes files, questions, decisions, or structure
 
-Branch naming: `chapter/01-title`, `story/plot-change-description`, `notes/what-changed`, `meta/what-changed`
+Branch naming: `draft/01-title`, `story/plot-change-description`, `notes/what-changed`, `meta/what-changed`
 
 The human reviews and merges PRs. Don't merge your own PR.
 
@@ -63,10 +63,11 @@ When a decision has been fully absorbed into the relevant notes file (worldbuild
 
 ## How to Work on This Story
 
-- **Before writing a chapter:** Read the files above. Ask if anything is unclear.
-- **After writing a chapter:** Create a per-chapter summary file in `summaries/` named to match the chapter (e.g. `summaries/01-chapter-one.md`), 1–2 paragraphs. Then update the one-sentence entry for that chapter in `summaries/story-so-far.md`. The rolling file is a quick index; the per-chapter files have the detail.
+- **The unit of work is a section** — a chapter in a longer work, or the whole thing for a short story.
+- **Before writing a section:** Read the files above. Ask if anything is unclear.
+- **After writing a section:** Create a per-section summary file in `summaries/` named to match it (e.g. `summaries/01-opening.md`), 1–2 paragraphs. Then update the one-sentence entry for that section in `summaries/story-so-far.md`. The rolling file is a quick index; the per-section files have the detail.
 - **Ideas and fragments:** Dump anything unformed into `notes/ideas.md` — don't discard.
-- **Character changes:** If a character's situation, knowledge, or relationships change in a chapter, update `notes/characters.md`.
+- **Character changes:** If a character's situation, knowledge, or relationships change in a section, update `notes/characters.md`.
 - **Notes files:** Keep them short. Fragments are fine — no sentences where a phrase will do. If a file is getting long, trim it.
 
 ## Core Principles

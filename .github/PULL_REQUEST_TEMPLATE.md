@@ -1,6 +1,6 @@
 ## What's here
 
-[One sentence: chapter draft, notes update, revision, structural change, etc.]
+[One sentence: new prose, notes update, revision, structural change, etc.]
 
 ## For the reviewer
 

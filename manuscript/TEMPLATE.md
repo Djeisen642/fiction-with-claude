@@ -1,8 +1,8 @@
-# Chapter [N]: [Working Title]
+# [Title — e.g. "Chapter 1: The Lighthouse", or just the story title for a short piece]
 
 **Status:** Draft | Revised | Final  
-**Summary:** [One sentence — what happens in this chapter]
+**Summary:** [One sentence — what happens in this section]
 
 ---
 
-[Chapter text begins here]
+[Text begins here]
