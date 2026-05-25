@@ -6,40 +6,9 @@ How this repository is organized and how the human–Claude workflow operates.
 
 ## What This Repo Is
 
-A structured workspace for writing a short story collaboratively with Claude. The repo stores:
-
-- The story itself (chapters in `manuscript/`)
-- All the planning and reference material Claude needs (files in `notes/`)
-- Summaries Claude uses to stay oriented across sessions (files in `summaries/`)
-- Instructions for how Claude should behave (`CLAUDE.md`)
+A structured workspace for writing a story collaboratively with Claude. The core idea: Claude has no memory between sessions, so everything it needs to know lives in plain text files in this repo. Each session, Claude reads those files, does the work, updates them with anything new, and commits the changes for you to review.
 
 Git version control is used not for code, but as a record of creative decisions — every change is tracked, reviewable, and reversible.
-
----
-
-## Directory Layout
-
-```
-ai-gen-story/
-├── manuscript/        # The actual story
-│   └── TEMPLATE.md   # Copy this when starting a new chapter
-├── notes/             # Planning and reference — Claude reads these every session
-│   ├── outline.md         # Planned story structure
-│   ├── characters.md      # All named characters
-│   ├── worldbuilding.md   # Rules and setting of the story's world
-│   ├── tone.md            # Voice, style, what the prose should feel like
-│   ├── style-sample.md    # A reference passage — all prose should sound like this
-│   ├── continuity.md      # Small specific facts from the prose that can't be contradicted
-│   ├── questions.md       # Open questions; unresolved ones block writing
-│   ├── decisions.md       # Log of key decisions made across sessions
-│   ├── decisions-archive.md  # Resolved decisions (not read during normal sessions)
-│   └── ideas.md           # Scratchpad — anything unformed goes here
-├── summaries/         # Story progress
-│   └── story-so-far.md   # One sentence per chapter; quick orientation
-├── CLAUDE.md          # Instructions Claude follows during every session
-├── ARCHITECTURE.md    # This file
-└── README.md          # Overview and setup guide
-```
 
 ---
 
@@ -53,6 +22,22 @@ ai-gen-story/
 6. **You review and merge** the PR — or push back and ask for changes
 
 Claude never merges its own PRs. You are always in the loop before anything lands on `main`.
+
+---
+
+## Choosing a Model (as of May 2026)
+
+Claude comes in three tiers. You can switch between them in Claude Code with the `/model` command. Faster and cheaper isn't always worse — match the model to the task.
+
+| Model | Best for | Trade-off |
+|---|---|---|
+| **Opus** | First drafts of important chapters, complex character work, difficult plot decisions, anything where quality matters most | Slowest, most expensive |
+| **Sonnet** | Most session work — routine writing, notes updates, brainstorming, revisions | Good balance of quality and speed; a reasonable default |
+| **Haiku** | Quick questions, simple edits, checking a file, short back-and-forth | Fastest and cheapest, but less nuanced on complex creative tasks |
+
+For a short story, Sonnet is probably the right default. Reach for Opus when a scene or decision feels important enough to warrant it. Use Haiku when you just need a quick answer.
+
+Models and pricing change — see [anthropic.com](https://anthropic.com) for current options.
 
 ---
 
@@ -74,21 +59,21 @@ This is accurate as of May 2026. Anthropic is actively developing Claude's memor
 
 ## The Notes System
 
-The `notes/` files are Claude's memory across sessions. Because Claude doesn't remember previous conversations, these files carry all the context forward.
+The `notes/` files are Claude's memory across sessions. Claude is instructed to update them proactively — you shouldn't need to ask.
 
 | File | What it's for |
 |---|---|
-| `outline.md` | High-level story structure — acts, beats, where things are going |
+| `decisions.md` | A log of what was decided and why, updated every session |
 | `characters.md` | Every named character: who they are, what they want, how they speak |
+| `continuity.md` | Specific facts stated in the prose that must stay consistent |
 | `worldbuilding.md` | The rules of the world the story lives in |
+| `outline.md` | High-level story structure — acts, beats, where things are going |
 | `tone.md` | How the prose should feel — POV, rhythm, emotional register |
 | `style-sample.md` | A concrete reference passage; new prose should sound like this |
-| `continuity.md` | Specific facts stated in the prose that must stay consistent |
 | `questions.md` | Open questions — some must be resolved before writing can proceed |
-| `decisions.md` | A log of what was decided and why, updated every session |
 | `ideas.md` | Scratchpad for fragments, half-thoughts, and anything not yet ready |
 
-Claude is instructed to update these files proactively — you shouldn't need to ask.
+For individual chapter summaries in `summaries/`: read most-recent-first and only as far back as needed — recent chapters are most relevant to what comes next.
 
 ---
 
@@ -117,22 +102,6 @@ All changes go through a PR. This means:
 
 ---
 
-## Choosing a Model (as of May 2026)
-
-Claude comes in three tiers. You can switch between them in Claude Code with the `/model` command. Faster and cheaper isn't always worse — match the model to the task.
-
-| Model | Best for | Trade-off |
-|---|---|---|
-| **Opus** | First drafts of important chapters, complex character work, difficult plot decisions, anything where quality matters most | Slowest, most expensive |
-| **Sonnet** | Most session work — routine writing, notes updates, brainstorming, revisions | Good balance of quality and speed; a reasonable default |
-| **Haiku** | Quick questions, simple edits, checking a file, short back-and-forth | Fastest and cheapest, but less nuanced on complex creative tasks |
-
-For a short story, Sonnet is probably the right default. Reach for Opus when a scene or decision feels important enough to warrant it. Use Haiku when you just need a quick answer.
-
-Models and pricing change — see [anthropic.com](https://anthropic.com) for current options.
-
----
-
 ## What Claude Will and Won't Do
 
 **Will do without being asked:**
@@ -145,3 +114,29 @@ Models and pricing change — see [anthropic.com](https://anthropic.com) for cur
 - Merge its own PRs
 - Commit directly to `main` (blocked by branch protection)
 - Silently go along with ideas that don't work — it's instructed to say so
+
+---
+
+## Directory Layout
+
+```
+ai-gen-story/
+├── manuscript/        # The actual story
+│   └── TEMPLATE.md   # Copy this when starting a new chapter
+├── notes/             # Planning and reference — Claude reads these every session
+│   ├── decisions.md       # Log of key decisions made across sessions
+│   ├── characters.md      # All named characters
+│   ├── continuity.md      # Small specific facts from the prose that can't be contradicted
+│   ├── worldbuilding.md   # Rules and setting of the story's world
+│   ├── outline.md         # Planned story structure
+│   ├── tone.md            # Voice, style, what the prose should feel like
+│   ├── style-sample.md    # A reference passage — all prose should sound like this
+│   ├── questions.md       # Open questions; unresolved ones block writing
+│   ├── decisions-archive.md  # Resolved decisions (not read during normal sessions)
+│   └── ideas.md           # Scratchpad — anything unformed goes here
+├── summaries/         # Story progress
+│   └── story-so-far.md   # One sentence per chapter; quick orientation
+├── CLAUDE.md          # Instructions Claude follows during every session
+├── ARCHITECTURE.md    # This file
+└── README.md          # Overview and setup guide
+```
