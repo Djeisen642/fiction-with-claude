@@ -13,29 +13,19 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for a detailed explanation of how the rep
 
 ## Repository Setup
 
-If you [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repo, configure these settings on your fork:
+After [forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo), configure these settings:
 
-### Rename the Repository
+### Settings → General
 
-Under **Settings → General**, the first field is **Repository name**. Change it to whatever you want to call your project and click **Rename**.
-
-### Change Visibility
-
-Forked repos inherit the visibility of the original (public). If you want yours to be private — so only you can see it — go to **Settings → General → Danger Zone → Change repository visibility** and select **Private**. You can change this at any time.
-
-### Branch Protection (required)
-
-Go to **Settings → Rules → [Rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets)** and create a ruleset targeting `main`:
-
-- **Require a [pull request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) before merging** — This prevents anyone (including Claude) from writing directly to the `main` branch. All changes must go through a PR that you review and approve first.
-
-### General Settings (recommended)
-
-Under **Settings → General**:
-
+- **Repository name** — Rename to whatever you want to call your project, then click **Rename**
+- **Visibility** — Forked repos start public. To make yours private, go to **Danger Zone → Change repository visibility**. You can change this at any time.
 - **Features:** Disable Issues and Projects — this repo tracks everything through PRs and plain text notes files, so the extra GitHub features just add noise
 - **Pull Requests:**
-  - **Always suggest updating pull request branches** — When your `main` branch has moved ahead of an open PR, GitHub will prompt you to bring the PR up to date before merging. Keeps things from conflicting.
-  - **Automatically delete head branches** — After you merge a PR, GitHub automatically deletes the feature branch. Keeps the branch list clean.
+  - **Always suggest updating pull request branches** — When `main` has moved ahead of an open PR, GitHub will prompt you to bring the PR up to date before merging. Keeps things from conflicting.
+  - **Automatically delete head branches** — After you merge a PR, GitHub deletes the feature branch. Keeps the branch list clean.
 
-The repo is public — anyone can fork it and run their own collaborative story with Claude.
+### Settings → Rules → [Rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets) (required)
+
+Create a ruleset targeting `main`:
+
+- **Require a [pull request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) before merging** — Prevents anyone (including Claude) from writing directly to `main`. All changes go through a PR you review first.
