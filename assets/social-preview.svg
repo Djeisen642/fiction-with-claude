@@ -125,5 +125,5 @@
   <!-- 6. Tagline: light italic Fraunces -->
   <text x="640" y="408" text-anchor="middle"
         font-family="Fraunces 72pt" font-weight="300" font-style="italic"
-        font-size="42" fill="#d3cae0" letter-spacing="0.4">Bring your weirdest idea. It will not flinch.</text>
+        font-size="44" fill="#d3cae0" letter-spacing="0.6">Your imagination, drafted.</text>
 </svg>
