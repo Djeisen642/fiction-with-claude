@@ -90,8 +90,9 @@ All changes go through a PR. This means:
 | Type of change | Branch name format |
 |---|---|
 | New chapter | `chapter/01-working-title` |
-| Story direction change | `story/description-of-change` |
-| Notes or structure update | `notes/what-changed` |
+| Plot or direction change | `story/description-of-change` |
+| Story notes (characters, worldbuilding, etc.) | `notes/what-changed` |
+| Template infrastructure (CLAUDE.md, README, etc.) | `meta/what-changed` |
 
 ### What triggers a new PR
 

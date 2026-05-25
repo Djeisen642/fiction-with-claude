@@ -28,7 +28,7 @@ Commit and push after every meaningful change.
 - Significant rewrites of existing chapters
 - Any change to notes files, questions, decisions, or structure
 
-Branch naming: `chapter/01-title`, `story/plot-change-description`, `notes/what-changed`
+Branch naming: `chapter/01-title`, `story/plot-change-description`, `notes/what-changed`, `meta/what-changed`
 
 The human reviews and merges PRs. Don't merge your own PR.
 
