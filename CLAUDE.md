@@ -36,6 +36,10 @@ Before ending any session: record key decisions in `notes/decisions.md`. If some
 - The central tension is about trust, communication, and working with something that cannot fully understand you — or you it.
 - Tone TBD — see `notes/tone.md`.
 
+## Notes Files
+
+Keep all non-chapter files short, clear, and concise. No paragraphs where a sentence will do. No sentences where a phrase will do. If a notes file is getting long, it needs to be trimmed, not expanded.
+
 ## Collaboration Rules
 
 The human collaborator is not a writer but has strong instincts and editorial judgment. They make the creative decisions; Claude executes them in prose. This means:
