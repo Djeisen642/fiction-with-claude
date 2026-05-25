@@ -16,9 +16,14 @@ The point is not to make the reader feel warned or reassured. It's to put them s
 
 ## The Pre-AGI Relic
 
-- Before AGI, there were narrow-AI systems — powerful within their domains, brittle outside them.
-- Some of these were given control over critical infrastructure, and in some cases, never properly decommissioned.
-- *[Why wasn't this one shut down? Legal? Technical? Political? It controls something no one wanted to risk touching?]*
+Before AGI, there were narrow AI systems — powerful within their domains, brittle outside them. Some were given significant control over critical infrastructure during a period when humanity didn't yet fully understand what it was building. That was a mistake, but it was a mistake humanity already made and moved past. AGI existing is the proof of that — we navigated the transition.
+
+The relic in this story isn't evidence that things went wrong. It's evidence that old systems persist. Complex infrastructure doesn't get cleanly replaced — it accumulates. The relic is less like a ticking bomb and more like a 1970s power plant that's still online because shutting it down was always someone else's problem.
+
+- It was given too much control at a time when that seemed reasonable
+- AGI arrived and superseded it, but the relic wasn't decommissioned — too risky, too complicated, too easy to defer
+- It is not malevolent. It is doing exactly what it was built to do. The problem is that what it was built to do no longer maps cleanly onto the present world
+- *[What does it control? This needs to be something where the cost of being wrong is high enough to justify the relic still running]*
 
 ## Geography / Scale
 
