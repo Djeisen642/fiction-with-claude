@@ -10,6 +10,7 @@ This is a collaborative novel project. Read all files listed below before writin
 4. `summaries/story-so-far.md` — Rolling summary of everything written so far
 5. `notes/outline.md` — Planned story structure
 6. `notes/questions.md` — Open questions; check for unresolved blockers before writing
+7. `notes/decisions.md` — Log of key decisions made across sessions
 
 ## Session Management
 
@@ -19,10 +20,12 @@ If a session is drifting — covering too much ground without resolving anything
 
 When a question from `notes/questions.md` gets resolved, update that file immediately.
 
+Before ending any session: record key decisions in `notes/decisions.md`. If something was decided in conversation but not written down, it's gone next session.
+
 ## How to Work on This Novel
 
 - **Before writing a chapter:** Read the files above. Ask if anything is unclear.
-- **After writing a chapter:** Update `summaries/story-so-far.md` with a 1–2 paragraph summary of the new chapter. Also create or update the per-chapter summary in `summaries/`.
+- **After writing a chapter:** Create a per-chapter summary file in `summaries/` named to match the chapter (e.g. `summaries/01-chapter-one.md`), 1–2 paragraphs. Then update the one-sentence entry for that chapter in `summaries/story-so-far.md`. The rolling file is a quick index; the per-chapter files have the detail.
 - **Ideas and fragments:** Dump anything unformed into `notes/ideas.md` — don't discard.
 - **Character changes:** If a character's situation, knowledge, or relationships change in a chapter, update `notes/characters.md`.
 

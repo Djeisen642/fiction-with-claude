@@ -1,5 +1,7 @@
 # Story So Far
 
-*This file is updated after each chapter is written. Read this instead of re-reading the full manuscript.*
+One sentence per chapter. Read this for a quick orientation. For detail, read the individual chapter summary files in this directory.
+
+---
 
 *[No chapters written yet.]*
