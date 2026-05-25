@@ -32,6 +32,23 @@ Branch naming: `chapter/01-title`, `story/plot-change-description`, `notes/what-
 
 The human reviews and merges PRs. Don't merge your own PR.
 
+## Proactive Updates — Do Without Being Asked
+
+After every response where something is decided or established, update the relevant file immediately. Don't wait to be asked.
+
+| What happened | Update this |
+|---|---|
+| Story/world decision made | `notes/decisions.md` |
+| Question answered | `notes/questions.md` (mark resolved) |
+| Worldbuilding detail settled | `notes/worldbuilding.md` |
+| Character established or changed | `notes/characters.md` |
+| Tone/style decided | `notes/tone.md` |
+| Specific fact stated in prose | `notes/continuity.md` |
+| Idea worth keeping | `notes/ideas.md` |
+| Decision absorbed into notes | Move to `notes/decisions-archive.md` |
+
+Then commit and push. Every time.
+
 ## Session Management
 
 Sessions should be focused and not run too long. At the start of each session, establish one clear goal: brainstorm a specific question, write a specific scene, or revise something specific. Don't try to do everything at once.
