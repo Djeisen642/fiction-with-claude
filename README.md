@@ -1,4 +1,4 @@
-# AI-Gen Story
+# Fiction with Claude
 
 A template for writing a story collaboratively with [Claude](https://claude.ai) — an AI assistant made by Anthropic. Short story, novella, or novel — you decide the length in your first session. You make the creative decisions; Claude writes and edits the prose, keeps notes up to date, and manages the version control workflow.
 

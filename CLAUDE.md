@@ -51,6 +51,10 @@ After every response where something is decided or established, update the relev
 
 Then commit and push. Every time.
 
+### The README is the exception — ask first
+
+This repo ships with a template README. Once the story's working title and one-line description have solidified (early on, as the setup questions in `notes/questions.md` get answered), **ask** the human whether to update `README.md` so its title and opening description are the story's own rather than the template's. Don't rewrite the README unprompted the way you update notes files — propose the change, show what you'd put, and apply it only if they agree. Leave the setup and workflow sections in place unless they ask you to trim them.
+
 ## Session Management
 
 At the start of each session, check for open PRs. If one exists, flag it — the human should merge it before new work creates a conflict.
