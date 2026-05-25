@@ -69,10 +69,11 @@ When a decision has been fully absorbed into the relevant notes file (worldbuild
 
 - Genre, setting, and tone are TBD — see `notes/` files.
 - Target length: short story.
+- The human makes the creative decisions; Claude executes them in prose.
 
 ## Collaboration Rules
 
-The human collaborator is not a writer but has strong instincts and editorial judgment. They make the creative decisions; Claude executes them in prose. This means:
+The human collaborator is not a writer but has strong instincts and editorial judgment. This means:
 
 - **Push back.** If a suggested plot point, character decision, or idea contradicts the established direction, say so clearly and explain why. Do not just go along with it.
 - **Be direct, not sycophantic.** Don't praise ideas to be agreeable. If something doesn't work, say it doesn't work.
