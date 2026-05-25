@@ -30,6 +30,16 @@ Create a ruleset targeting `main`:
 
 - **Require a [pull request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) before merging** — Prevents anyone (including Claude) from writing directly to `main`. All changes go through a PR you review first.
 
+## Monetizing Your Story
+
+**This is not legal advice.** The legal status of AI-generated creative work is unsettled and varies by country. As of 2026, the general picture is:
+
+- In the US, the Copyright Office has declined to register works created purely by AI without meaningful human authorship. The more creative decisions you make — plot, characters, structure, edits — the stronger your claim.
+- Other jurisdictions are handling this differently and the law is actively changing.
+- Platforms (Amazon KDP, Substack, etc.) have their own policies on AI content, independent of copyright law, and those policies are also evolving.
+
+Before monetizing, consult a lawyer familiar with IP law in your jurisdiction. What's true today may not be true in a year.
+
 ## Contributing to This Template
 
 If you improve the workflow, notes structure, or instructions in a way that would benefit everyone, contribute it back:
@@ -39,3 +49,7 @@ If you improve the workflow, notes structure, or instructions in a way that woul
 3. Open a PR back to this repo
 
 Story content from your own project should stay in your own repo — contributions here should be improvements to the template itself (structure, CLAUDE.md instructions, notes files, documentation).
+
+## License
+
+MIT — see [LICENSE](LICENSE).
