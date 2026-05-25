@@ -19,7 +19,7 @@ If you [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-r
 
 Go to **Settings → Rules → [Rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets)** and create a ruleset targeting `main`:
 
-- **Require a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) before merging** — This prevents anyone (including Claude) from writing directly to the `main` branch. All changes must go through a PR that you review and approve first.
+- **Require a [pull request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) before merging** — This prevents anyone (including Claude) from writing directly to the `main` branch. All changes must go through a PR that you review and approve first.
 
 ### General Settings (recommended)
 

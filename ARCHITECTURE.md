@@ -49,7 +49,7 @@ ai-gen-story/
 2. **Claude reads the notes files** listed in `CLAUDE.md` to get oriented — what's been decided, what's open, what the story looks like so far
 3. **You establish one goal** for the session: brainstorm a question, write a scene, revise something
 4. **Claude writes or edits**, then immediately updates the relevant notes file if anything new was decided
-5. **Claude commits and pushes** the changes to a [branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) and opens a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for you to review
+5. **Claude commits and pushes** the changes to a [branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) and opens a [pull request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for you to review
 6. **You review and merge** the PR — or push back and ask for changes
 
 Claude never merges its own PRs. You are always in the loop before anything lands on `main`.
@@ -78,7 +78,7 @@ Claude is instructed to update these files proactively — you shouldn't need to
 
 ## The PR Workflow
 
-All changes go through a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). This means:
+All changes go through a PR. This means:
 
 - You see every change before it becomes permanent
 - You can leave comments, request revisions, or reject changes entirely
