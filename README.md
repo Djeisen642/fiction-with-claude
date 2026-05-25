@@ -1,4 +1,4 @@
-# AI-Gen Sci-Fi Story
+# AI-Gen Story
 
 A collaborative novel written with Claude.
 
