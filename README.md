@@ -2,16 +2,7 @@
 
 A template for writing a short story collaboratively with [Claude](https://claude.ai) — an AI assistant made by Anthropic. You make the creative decisions; Claude writes and edits the prose, keeps notes up to date, and manages the version control workflow.
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for a detailed explanation of how the repo is organized and how the workflow operates.
-
-## Structure
-
-- `manuscript/` — Chapters, numbered and in order
-- `notes/` — Characters, worldbuilding, tone, outline, ideas
-- `summaries/` — Per-chapter summaries and a rolling story-so-far
-- `CLAUDE.md` — Instructions for the AI assistant
-
-## Starting Your Own Story
+## Getting Started
 
 1. Click **Use this template** → **Create a new repository**
 2. Set your project name and choose public or private
@@ -29,6 +20,20 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for a detailed explanation of how the rep
 Create a ruleset targeting `main`:
 
 - **Require a [pull request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) before merging** — Prevents anyone (including Claude) from writing directly to `main`. All changes go through a PR you review first.
+
+Once set up, read [ARCHITECTURE.md](ARCHITECTURE.md) to understand how the workflow and repo structure operate.
+
+## Your First Session
+
+Open a session with Claude and give it one clear goal. You don't need to have everything figured out — that's what the early sessions are for.
+
+If you have an idea:
+> I want to write a story about a woman who inherits a failing lighthouse and starts finding letters hidden in the walls. Let's work through the open questions in `notes/questions.md` and figure out the basics before we write anything.
+
+If you don't:
+> I want to write a short story but I don't have an idea yet. Read the notes files and help me figure out what we're making — genre, premise, a protagonist worth following.
+
+Keep early sessions focused on decisions, not prose. Writing starts once the foundations are in place.
 
 ## Monetizing Your Story
 
