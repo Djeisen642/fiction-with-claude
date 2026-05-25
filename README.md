@@ -23,6 +23,18 @@ Create a ruleset targeting `main`:
 
 Once set up, read [ARCHITECTURE.md](ARCHITECTURE.md) to understand how the workflow and repo structure operate.
 
+## Your First Session
+
+Open a session with Claude and give it one clear goal. You don't need to have everything figured out — that's what the early sessions are for.
+
+If you have an idea:
+> I want to write a story about a woman who inherits a failing lighthouse and starts finding letters hidden in the walls. Let's work through the open questions in `notes/questions.md` and figure out the basics before we write anything.
+
+If you don't:
+> I want to write a short story but I don't have an idea yet. Read the notes files and help me figure out what we're making — genre, premise, a protagonist worth following.
+
+Keep early sessions focused on decisions, not prose. Writing starts once the foundations are in place.
+
 ## Monetizing Your Story
 
 **This is not legal advice.** The legal status of AI-generated creative work is unsettled and varies by country. As of 2026, the general picture is:
