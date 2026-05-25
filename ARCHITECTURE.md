@@ -117,6 +117,22 @@ All changes go through a PR. This means:
 
 ---
 
+## Choosing a Model (as of May 2026)
+
+Claude comes in three tiers. You can switch between them in Claude Code with the `/model` command. Faster and cheaper isn't always worse — match the model to the task.
+
+| Model | Best for | Trade-off |
+|---|---|---|
+| **Opus** | First drafts of important chapters, complex character work, difficult plot decisions, anything where quality matters most | Slowest, most expensive |
+| **Sonnet** | Most session work — routine writing, notes updates, brainstorming, revisions | Good balance of quality and speed; a reasonable default |
+| **Haiku** | Quick questions, simple edits, checking a file, short back-and-forth | Fastest and cheapest, but less nuanced on complex creative tasks |
+
+For a short story, Sonnet is probably the right default. Reach for Opus when a scene or decision feels important enough to warrant it. Use Haiku when you just need a quick answer.
+
+Models and pricing change — see [anthropic.com](https://anthropic.com) for current options.
+
+---
+
 ## What Claude Will and Won't Do
 
 **Will do without being asked:**
