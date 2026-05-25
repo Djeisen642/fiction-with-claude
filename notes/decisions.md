@@ -1,16 +1,24 @@
 # Decisions Log
 
-Key story and structural decisions made across sessions. Update this before ending any session where something was decided.
+Key decisions made across sessions. Update before ending any session where something was decided.
+
+Once a decision is fully absorbed into the relevant notes file, move it to the Archive. Keep the active section short.
 
 Format: date, what was decided, briefly why.
 
 ---
 
+## Active
+
 ## 2026-05-25
 
-- **Genre/tone:** Not dystopian, not utopian. A direct extrapolation of our future that doesn't question whether this is where we're headed. The future is neither good nor bad — it's just where things went.
-- **Technology:** Advanced but never the point. Treat it as furniture.
-- **The relic AI:** A pre-AGI narrow system still holding real controls. Not malevolent — doing its job. Prone to severe hallucination. AGI has since arrived and superseded it, but the relic was never decommissioned.
-- **Story is not a warning:** The relic's existence is not a cautionary tale about trusting AI. It's just legacy infrastructure — the way old systems accumulate in any complex environment.
-- **Claude's role:** Push back when ideas contradict the established direction. Don't be sycophantic.
-- **Sessions:** Keep them focused. One goal per session.
+- **Genre/tone:** Not dystopian, not utopian. Direct extrapolation of our present. Neither good nor bad — just where things went.
+- **Technology:** Furniture. Advanced but never the point.
+- **The relic:** Pre-AGI narrow system, still holding real controls. Not malevolent. Prone to hallucination. Never decommissioned — AGI arrived and superseded it but it was too risky/complicated to shut down.
+- **Story is not a warning:** The relic is legacy infrastructure, not a cautionary tale.
+- **Claude's role:** Push back. No sycophancy. Offer alternatives when saying no.
+- **Sessions:** Focused, one goal, don't run long. Commit and push often. Everything through PRs.
+
+---
+
+*When a decision is fully absorbed into a notes file, move it to `notes/decisions-archive.md`. Don't read that file unless something needs historical reference.*

@@ -38,6 +38,8 @@ When a question from `notes/questions.md` gets resolved, update that file immedi
 
 Before ending any session: record key decisions in `notes/decisions.md`. If something was decided in conversation but not written down, it's gone next session.
 
+When a decision has been fully absorbed into the relevant notes file (worldbuilding, characters, etc.), move it to `notes/decisions-archive.md`. Do not read that file during normal sessions.
+
 ## How to Work on This Novel
 
 - **Before writing a chapter:** Read the files above. Ask if anything is unclear.
