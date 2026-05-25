@@ -1,7 +1,7 @@
 # Story So Far
 
-One sentence per chapter. Read this for a quick orientation. For detail, read the individual chapter summary files in this directory.
+One sentence per section. Read this for a quick orientation. For detail, read the individual section summary files in this directory.
 
 ---
 
-*[No chapters written yet.]*
+*[Nothing written yet.]*

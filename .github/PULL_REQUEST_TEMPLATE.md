@@ -1,6 +1,6 @@
 ## What's here
 
-[One sentence: chapter draft, notes update, revision, structural change, etc.]
+[One sentence: new prose, notes update, revision, structural change, etc.]
 
 ## For the reviewer
 
@@ -11,3 +11,7 @@
 - [ ] Anything decided in this PR is recorded in the relevant notes file
 - [ ] `questions.md` updated if questions were resolved or raised
 - [ ] No continuity contradictions with established facts or characters
+
+---
+
+*Session:* <!-- Claude: paste your https://claude.ai/code/session_… link here. Opening this PR yourself? Delete this line. -->

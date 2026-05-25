@@ -5,6 +5,7 @@ Questions that need answers before or during the story. Mark with [RESOLVED] and
 ## Must Resolve Before Writing Begins
 
 - What is the premise? (Who, what, where, when)
+- What is the working title? (Can change later — used for framing and the README)
 - Who is the protagonist? What do they want? What is their situation?
 - Where and when does the story take place?
 - What is the central conflict?
